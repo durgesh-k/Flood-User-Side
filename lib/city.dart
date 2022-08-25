@@ -139,6 +139,7 @@ class _InfoState extends State<Info> {
                       .set({
                     'fcm': token,
                     'coordinates': coordinates,
+                    'number': FirebaseAuth.instance.currentUser!.phoneNumber,
                     'city': city.text,
                     'name': name.text
                   });

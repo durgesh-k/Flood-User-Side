@@ -7,12 +7,57 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:328244263238:android:5b58161002aff535bd4d47",
+        "android_client_info": {
+          "package_name": "com.example.flood_manager_side"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328244263238-rs3he6i3e2ih96jkrjaciebpanaf6rvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh8P1C2YRVnTv79j11qirc1c52sKQd6Q0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328244263238-rs3he6i3e2ih96jkrjaciebpanaf6rvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:328244263238:android:01eb826f63cc4071bd4d47",
         "android_client_info": {
           "package_name": "com.example.flutter_application_1"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "328244263238-q3kqgh9qibe71t0r1dlje27166m60gqm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_application_1",
+            "certificate_hash": "355cc4d751db95dd5afbe8c031af67e53de60da1"
+          }
+        },
+        {
+          "client_id": "328244263238-sc7o56h0t1l87qv9pmlnegjc9c02bnsv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_application_1",
+            "certificate_hash": "7635417c75b4d4de6e08f8101db529957c1ff827"
+          }
+        },
         {
           "client_id": "328244263238-rs3he6i3e2ih96jkrjaciebpanaf6rvc.apps.googleusercontent.com",
           "client_type": 3
@@ -42,6 +87,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "328244263238-3rf5hthf4no0jmhv12cbubl3fng0lr0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notification",
+            "certificate_hash": "7635417c75b4d4de6e08f8101db529957c1ff827"
+          }
+        },
         {
           "client_id": "328244263238-rs3he6i3e2ih96jkrjaciebpanaf6rvc.apps.googleusercontent.com",
           "client_type": 3
