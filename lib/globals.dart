@@ -4,6 +4,8 @@ import 'package:fluttertoast/fluttertoast.dart';
 TextEditingController city = TextEditingController();
 TextEditingController name = TextEditingController();
 TextEditingController mobile = TextEditingController();
+TextEditingController address = TextEditingController();
+
 
 double getHeight(BuildContext context) {
   return MediaQuery.of(context).size.height;

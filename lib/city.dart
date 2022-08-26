@@ -93,6 +93,35 @@ class _InfoState extends State<Info> {
                 height: 20,
               ),
               TextFormField(
+                controller: address,
+                validator: (String? value) {
+                  if (value!.isEmpty) {
+                    return 'Address cannot be empty';
+                  }
+                  return null;
+                },
+                //inputFormatters: [FilteringTextInputFormatter.deny(' ')],
+                style: const TextStyle(
+                  fontFamily: "SemiBold",
+                  fontSize: 16,
+                  color: Colors.black,
+                ),
+                decoration: InputDecoration(
+                  focusColor: Colors.black,
+                  filled: false,
+                  fillColor: Colors.black.withOpacity(0.05),
+                  hintText: 'Enter your address',
+                  hintStyle: TextStyle(
+                    fontFamily: "SemiBold",
+                    fontSize: 14, //16,
+                    color: Colors.black.withOpacity(0.3),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 20,
+              ),
+              TextFormField(
                 controller: city,
                 validator: (String? value) {
                   if (value!.isEmpty) {
@@ -162,7 +191,7 @@ class _InfoState extends State<Info> {
                   width: 140,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(50),
-                      color: Colors.blue),
+                      color: Colors.red),
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     mainAxisAlignment: MainAxisAlignment.center,

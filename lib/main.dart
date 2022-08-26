@@ -9,6 +9,7 @@ import 'package:geocoding/geocoding.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:notification/auth/number.dart';
+import 'package:notification/city.dart';
 import 'package:notification/map.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'dart:async';
@@ -29,7 +30,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          primarySwatch: Colors.blue,
+          primarySwatch: Colors.red,
         ),
         home: FirebaseAuth.instance.currentUser != null
             ? MyHomePage(

@@ -121,7 +121,7 @@ class _PhoneNumberScreenState extends State<PhoneNumberScreen> {
                     width: 140,
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(50),
-                        color: Colors.blue),
+                        color: Colors.red),
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
